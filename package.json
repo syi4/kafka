@@ -1,0 +1,15 @@
+{
+  "name": "kafka-tut",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "producer": "node ./producer/index.js",
+    "consumer": "node ./consumer/index.js"
+  },
+  "dependencies": {
+    "avsc": "^5.7.3",
+    "node-rdkafka": "^2.12.0"
+  }
+}
